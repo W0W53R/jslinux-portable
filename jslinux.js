@@ -618,7 +618,7 @@ function start_vm(user, pwd)
     }
     Module.preRun = start;
 
-    loadScript(vm_url, null);
+    loadScript("https://cdn.jsdelivr.com/gh/W0W53R/jslinux-portable/jslinux-portable/" + vm_url, null);
 }
 
 function on_login()
